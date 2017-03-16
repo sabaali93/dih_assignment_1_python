@@ -1,0 +1,38 @@
+# DIH Assignment - Python
+# Instructions
+## 1. Setup python and Jupyter notebook using setup guide document shared with you.
+## 2. Install packages “Pandas”, “numpy” and “Matplotlib”.
+## 3. Download and save dataset. The dataset folder has two files one is csv which you have to load and answer the questions below and the other one is dataset description read it to understand the variables.
+## 4. Create a python 2 notebook in jupyter notebook and answer all the questions.
+## 5. Push your notebook to github repository https://github.com/DigitalIntelligenceHub/dih_assignment_1_python.git
+## 6. You can write explanatory text like this i-e "### Testing markdown" and change cell type to markdown from cell tab above.
+## 7. Write complete description of code as an explanatory text.
+
+# Packages
+## Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python.
+
+## Numpy is the fundamental package for scientific computing with Python. It contains among other things: a powerful N-dimensional array object. sophisticated (broadcasting) functions.
+
+## Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension
+
+# Dataset
+## Chronic kidney disease (CKD) is a condition characterized by a gradual loss of kidney function over time. The data collected is of patients on the early stage of chronic kidney disease.
+
+# Assignment Questions
+## 1. Load the dataset to pandas dataframe and print names of columns
+## output: ['age', 'bp', 'sg', 'al', 'su', 'rbc', 'pc', 'pcc', 'ba', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wbcc', 'rbcc', 'htn', 'dm', 'cad', 'appet', 'pe', 'ane', 'class']
+## 2. Display first 5 rows in the dataset.
+## output: Table showing first 5 rows in dataset.
+## 3. Check if dataset is in cleaned form else clean it. Check Diabetes Mellitus(dm) variable and print what type of values it has.
+## output: [nan 'yes' 'no' ' yes' '\tno' '\tyes']
+## 4. The dataset is not in clean form. Write a function that takes pandas dataframe as an input and replace these characters i-e ( "\t", " ", "?") with "nan" the function should apply this transformation to all columns in dataframe and for cross check display unique values of Diabetes Mellitus(dm).
+## output: [nan 'yes' 'no']
+## 5. Change datatype to Numerical of following columns in Dataframe. columns = ['age', 'bp', 'bgr', 'bu', 'sc', 'sod', 'pot', 'hemo', 'pcv', 'wbcc', 'rbcc']
+## output: 2 types of columns nomial and numerical.
+## 6. Count the number of normal or abnormal red blood cells people having Chronic Kidney Disease(CKD).
+## output: Count, preferred output is bar graph using matplotlib package.
+## 7. Display maximum blood pressure having Chronic Kidney Disease(CKD).
+## output: Number.
+## 8. Create a csv file of cleaned data in dataframe with name "clean_chronic_kidney_disease.csv"
+## output: csv file
+## ALL THE BEST :)
